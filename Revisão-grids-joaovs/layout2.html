@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grids.css">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+
+         .row > [class*="col-"]{
+            border: 1px solid black;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="topo">topo</h1>
+                <p><a href="index.html">Voltar</a></p>
+            </div>
+        </div>
+
+        <div class="row gap-1">
+            <div class="col-3 colunas400">coluna A</div>
+            <div class="col-6 colunas400">coluna B</div>
+            <div class="col-3 colunas400">coluna c</div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                rodapé
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
