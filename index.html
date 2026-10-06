@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de layouts</title>
+    <link rel="stylesheet" href="grids.css">
+    <style>
+        .topo{
+            border: 3px solid red;
+            text-align: center;
+            background-color:black;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .conteudo{
+            border: solid red;
+            min-height: 300px;
+            background-color: black;
+            color: white;
+        }
+        .rodapé{
+            border: 3px solid red;
+            margin-top: 10px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+         <div class="container">
+            <div class="row">
+            <div class="col-12 topo">
+                <h1>Modelos de layouts</h1>
+         </div>
+         </div>
+
+         <div class="row">
+                <div class="col-6 offset-3 conteudo">
+                    <h2>Modelos</h2>
+            
+                    <p><a href="layout1.html">Layout 1</a></p>
+                    <p><a href="layout2.html">Layout 2</a></p>
+                    <p><a href="layout3.html">Layout 3</a></p>
+                    <p><a href="layout4.html">Layout 4</a></p>
+                </div>
+            </div>
+         <div class="row">
+                <div class="col-12 rodapé">
+                <h1>rodapé</h1>
+
+             </div>
+        </div>
+     </div>
+   
+</body>
+</html>
